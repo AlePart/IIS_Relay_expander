@@ -1228,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 162.56 63.5)
+			(xy 153.67 63.5) (xy 168.91 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1646,6 +1646,16 @@
 		)
 		(uuid "bac422e7-03a2-4353-98a5-08359b8f2b9c")
 	)
+	(label "DCDC_SWPIN"
+		(at 167.64 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef2a58c2-ca01-425d-97d9-eb846b6a87bc")
+	)
 	(label "24VAC+"
 		(at 34.29 48.26 180)
 		(effects
@@ -2017,10 +2027,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "655d9f85-0245-4c71-9ce4-1caeba35e0cc")
 		(property "Reference" "C8"
-			(at 148.59 52.07 90)
+			(at 148.59 53.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,7 +2037,7 @@
 			)
 		)
 		(property "Value" "100nF 16V X7R 10%"
-			(at 148.59 54.61 90)
+			(at 151.638 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,16 +2516,15 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 166.37 63.5 90)
+		(at 172.72 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4e63afb-e637-4002-8d12-b99877864eca")
 		(property "Reference" "L1"
-			(at 166.37 58.42 90)
+			(at 172.974 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2532,7 @@
 			)
 		)
 		(property "Value" "8.2uH 20% 100KHz 4A"
-			(at 166.37 60.96 90)
+			(at 173.736 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +2540,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
-			(at 166.37 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2549,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/34104/ihlp-2525cz-01.pdf"
-			(at 166.37 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2558,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 166.37 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
