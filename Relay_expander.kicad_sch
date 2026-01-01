@@ -2,9 +2,51 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid cb56b8bd-fc22-4d8d-97e3-11faac42b1ec)
+	(uuid "cb56b8bd-fc22-4d8d-97e3-11faac42b1ec")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 20.32 22.86)
+		(size 18.415 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c758b756-6a4c-4ec7-b8be-789a1eccaab2")
+		(property "Sheetname" "PowerSection"
+			(at 20.32 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSection.kicad_sch"
+			(at 20.32 31.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Relay_expander"
+				(path "/cb56b8bd-fc22-4d8d-97e3-11faac42b1ec"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
