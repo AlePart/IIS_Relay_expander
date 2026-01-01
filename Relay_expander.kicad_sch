@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "cb56b8bd-fc22-4d8d-97e3-11faac42b1ec")
 	(paper "A4")
+	(title_block
+		(title "IIS RElay Expander")
+		(company "Key-Code IIS")
+	)
 	(lib_symbols)
 	(sheet
 		(at 20.32 22.86)
